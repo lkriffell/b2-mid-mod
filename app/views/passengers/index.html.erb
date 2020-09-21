@@ -1,0 +1,6 @@
+<ul>
+  <h3>All Passengers: </h3>
+  <% @passengers.each do |passenger| %>
+    <li><%= passenger.name %> - flights: <%= passenger.flight_count %></li>
+  <% end %>
+</ul>
